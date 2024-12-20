@@ -15,22 +15,22 @@ Wavy allows users to:
 - Adjust the color or style of the visualization
 - See data on the track from the Web Audio API as represented by canvas
 
-###Welcome View
+### Welcome View
 ![welcome]
 
-###Landing Page
+### Landing Page
 ![landingPage]
 
-###Technical Details
+### Technical Details
 COMING SOON
 
-###Future Features
+### Future Features
 * Users can create and listen to playlists
 * Offers more visualizations
 * Uses particles to generate touch-responsive visualizations
 * Allow for sound manipulation
 
-###To-Do:
+### To-Do:
 * [ ] buffer tracks to allow for more analysis
 * [ ] build waveform reader and rendering
 * [ ] provide slider bars to warp and manipulate tracks
