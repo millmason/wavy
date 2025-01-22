@@ -9,30 +9,27 @@ a {
   color: #555;
 }
 
-
 a:active {
-  color: #00688B;
+  color: #00688b;
 }
 
 html {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 li {
   margin: 0;
 }
 
-
-
 .play {
-    display:inline-block;
-    margin:5px;
-    width: 24px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMZJREFUeNq0lt0NgzAMhIPlfWAR1BXYpDBSxSCFiYr70CqKUH6cO0t+SEC++xxkIvP8eFuOgRRiOVkeJvJkCAxW+BOtD8tl318nkiAOOE1KENA0knkGockRQGik8j03TS2Bm0YcbW2i8RA00UjnZ16k6SUo0ghw7NzSIAluaSRw4k/DEqCcQdqiyVq0KaH4+i38WyjjYONNZbhGChRHhTJc9wo0jWtluPYIuH+ZynBdKwC5tijDdU4AfnVUhutUAO46jkuAAQD+jXZOTODXVwAAAABJRU5ErkJggg==);
-    text-indent:-200px;
-    opacity: .4;
+  display: inline-block;
+  margin: 5px;
+  width: 24px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAgCAYAAAAIXrg4AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMZJREFUeNq0lt0NgzAMhIPlfWAR1BXYpDBSxSCFiYr70CqKUH6cO0t+SEC++xxkIvP8eFuOgRRiOVkeJvJkCAxW+BOtD8tl318nkiAOOE1KENA0knkGockRQGik8j03TS2Bm0YcbW2i8RA00UjnZ16k6SUo0ghw7NzSIAluaSRw4k/DEqCcQdqiyVq0KaH4+i38WyjjYONNZbhGChRHhTJc9wo0jWtluPYIuH+ZynBdKwC5tijDdU4AfnVUhutUAO46jkuAAQD+jXZOTODXVwAAAABJRU5ErkJggg==);
+  text-indent: -200px;
+  opacity: 0.4;
 }
 
 body {
@@ -40,25 +37,25 @@ body {
 }
 
 .stop {
-    display:inline-block;
-    margin:5px;
-    width: 32px;
-    height: 32px;
-    background-repeat: no-repeat;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACxJREFUeNrszUERAAAEADD0c/q3UYLfVmDZPfGp4plAIBAIBAKBQCC4sgIMAJggASlttpE8AAAAAElFTkSuQmCC);
-    text-indent:-200px;
-    opacity: .4;
+  display: inline-block;
+  margin: 5px;
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAACxJREFUeNrszUERAAAEADD0c/q3UYLfVmDZPfGp4plAIBAIBAKBQCC4sgIMAJggASlttpE8AAAAAElFTkSuQmCC);
+  text-indent: -200px;
+  opacity: 0.4;
 }
 p:hover {
-    cursor:pointer;
-    opacity:0.8;
+  cursor: pointer;
+  opacity: 0.8;
 }
 .button a {
   display: block;
   padding: 5px 10px;
   max-width: 133px;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 12px;
@@ -77,8 +74,8 @@ p:hover {
 }
 
 .button a:active {
-  color: #00688B;
-  border: 1px solid #00688B;
+  color: #00688b;
+  border: 1px solid #00688b;
 }
 
 #canvas {
@@ -101,16 +98,16 @@ p:hover {
   z-index: 2;
 }
 
-.sample a{
+.sample a {
   margin-top: 20px;
 }
 .inputfile {
-	width: 0.1px;
-	height: 0.1px;
-	opacity: 0;
-	overflow: hidden;
-	position: absolute;
-	z-index: -1;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
 }
 
 .options {
@@ -118,7 +115,7 @@ p:hover {
   padding: 5px 10px;
   max-width: 133px;
   color: white;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 12px;
@@ -145,7 +142,7 @@ p:hover {
 }
 
 .options li:hover {
-  background-color: rgba(169, 169, 169, .45);
+  background-color: rgba(169, 169, 169, 0.45);
 }
 
 .options-header:hover {
@@ -153,11 +150,11 @@ p:hover {
 }
 
 .options-header:active {
-  color: #00688B;
+  color: #00688b;
 }
 
 .hiding {
-  display:none;
+  display: none;
 }
 
 .rainbow {
@@ -165,27 +162,33 @@ p:hover {
   width: 120px;
   overflow: hidden;
   background: red; /* not working, let's see some red */
-  opacity: .3;
-    background: -moz-linear-gradient( left ,
-        rgba(255, 0, 0, 1) 0%,
-        rgba(255, 255, 0, 1) 15%,
-        rgba(0, 255, 0, 1) 30%,
-        rgba(0, 255, 255, 1) 50%,
-        rgba(0, 0, 255, .25) 65%,
-        rgba(255, 0, 255, .05) 80%,
-        rgba(255, 255, 255, 0) 100%);
-    background: -webkit-gradient(linear,  left top,  right bottom,
-        color-stop(0%, rgba(255, 0, 0, 1)),
-        color-stop(15%, rgba(255, 255, 0, 1)),
-        color-stop(30%, rgba(0, 255, 0, 1)),
-        color-stop(50%, rgba(0, 255, 255, 1)),
-        color-stop(65%, rgba(0, 0, 255, .25)),
-        color-stop(80%, rgba(255, 0, 255, .05)),
-        color-stop(100%, rgba(255, 255, 255, 0)));
+  opacity: 0.3;
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(255, 255, 0, 1) 15%,
+    rgba(0, 255, 0, 1) 30%,
+    rgba(0, 255, 255, 1) 50%,
+    rgba(0, 0, 255, 0.25) 65%,
+    rgba(255, 0, 255, 0.05) 80%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0%, rgba(255, 0, 0, 1)),
+    color-stop(15%, rgba(255, 255, 0, 1)),
+    color-stop(30%, rgba(0, 255, 0, 1)),
+    color-stop(50%, rgba(0, 255, 255, 1)),
+    color-stop(65%, rgba(0, 0, 255, 0.25)),
+    color-stop(80%, rgba(255, 0, 255, 0.05)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
 }
 
 .rainbow:hover {
-  opacity: .65;
+  opacity: 0.65;
 }
 
 .color {
@@ -195,7 +198,7 @@ p:hover {
 }
 
 .color:hover .rainbow {
-  opacity: .6;
+  opacity: 0.6;
 }
 
 .options a {
@@ -204,11 +207,11 @@ p:hover {
 }
 
 .options li a:hover {
-  background-color: rgba(255,255,255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .options a:active {
-  color: #00688B;;
+  color: #00688b;
 }
 
 .cycle {
@@ -230,12 +233,12 @@ p:hover {
 .modal {
   position: absolute;
   width: 100%;
-  background-color: rgba(255,255,255, .6);
+  background-color: rgba(255, 255, 255, 0.6);
   top: 0;
   left: 0;
   height: 100%;
   z-index: 1000;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 .help {
   color: white;
@@ -246,12 +249,12 @@ p:hover {
   width: 25%;
   margin: 50px auto;
   padding: 25px;
-  background-color: rgba(255,255,255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   color: #555;
-    position: relative;
+  position: relative;
 }
 
-.opening .text{
+.opening .text {
   margin: 15px auto;
 }
 
@@ -270,6 +273,7 @@ p:hover {
 
 .opening .buttons {
   margin: 0 auto;
+  max-width: 240px;
 }
 .opening a {
   margin-top: 30px;
@@ -283,12 +287,12 @@ p:hover {
   color: darkturquoise;
 }
 
-.close {
-  width: 93%;
-  margin-left: 30px;
+.links {
+  display: flex;
+  justify-content: space-around;
 }
 
-.close a {
+.close {
   text-align: center;
 }
 
